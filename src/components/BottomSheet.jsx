@@ -52,15 +52,15 @@ export default function BottomSheet() {
       <div className="sheet-content">
         {activeTab === "nearby" ? (
           <>
-            <div className="item">⛽ Indian Oil – 0.5 km</div>
-            <div className="item">🔧 ABC Garage – 1.1 km</div>
-            <div className="item">🍽️ Green Garden Café – 1.5 km</div>
-            <div className="item">🔧 Raj Auto Works – 2.0 km</div>
+            <div className="item"> Indian Oil – 0.5 km</div>
+            <div className="item"> ABC Garage – 1.1 km</div>
+            <div className="item"> Green Garden Café – 1.5 km</div>
+            <div className="item"> Raj Auto Works – 2.0 km</div>
           </>
         ) : (
           <>
-            <div className="item">⭐ Saved – Fuel Station, Patia</div>
-            <div className="item">⭐ Saved – Garage, Cuttack Road</div>
+            <div className="item"> Saved – Fuel Station, Patia</div>
+            <div className="item"> Saved – Garage, Cuttack Road</div>
           </>
         )}
       </div>
